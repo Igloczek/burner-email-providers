@@ -739,9 +739,6 @@
 9y222.app
 9ya.de
 9yc4hw.us
-<<<<<<< HEAD
-=======
->>>>>>> e8a414f (Add joeroc.com and related domains)
 Liaphoto.com
 a-action.ru
 a-b.co.za
@@ -4631,6 +4628,7 @@ crowd-mobile.com
 crowdaffiliates.com
 crowdeos.com
 crowdlycoin.com
+crowfiles.shop
 crpotu.com
 crrec.anonbox.net
 crtapev.com
@@ -12579,6 +12577,7 @@ mail.minhlun.com
 mail.mnisjk.com
 mail.mnsaf.com
 mail.molyg.com
+mail.mposhop.com
 mail.msarra.com
 mail.mxvia.com
 mail.myserv.info
@@ -15864,6 +15863,7 @@ pegasus.metro.twitpost.info
 pegoku.com
 pekanrabu.biz
 pekl.ml
+pekoi.com
 pekow.org
 pekow.us
 pekow.xyz
