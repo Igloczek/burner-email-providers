@@ -11,7 +11,8 @@
     "emails.txt"
   ],
   "scripts": {
-    "prune": "node prune/prune.js"
+    "prune": "node prune/prune.js",
+    "dedupe": "grep -v '^$' emails.txt | sort -uo emails.txt"
   },
   "keywords": [
     "email"
