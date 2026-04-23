@@ -14,8 +14,8 @@ This list is **intentionally short and not meant to be exhaustive**. It does not
 
 My recommended way to use this list in conjunction with the upstream one, as well as a list of free email providers that I use and trust, is described in this gist: [https://gist.github.com/Igloczek/7bfc459109f4a01f7e046b591d2a842a](https://gist.github.com/Igloczek/7bfc459109f4a01f7e046b591d2a842a).
 
-### For Email Providers and Affected Users (If your domain is banned)
+### For Email Providers and Affected Users (If your domain is on this list)
 
-If you or your users are affected by this blocklist, please direct your complaints to the email providers, not me. In 99% of cases, these are providers that offer a paid service but also run a free tier with absolutely no verification, allowing their infrastructure to be heavily abused by spammers.
+If your domain is listed here, the most likely reason is that your email provider offers a free tier with little to no verification, making it easy for spammers to abuse. Before requesting removal, please verify with your provider that this issue has been addressed.
 
-If a provider allows people to effortlessly create spam accounts, their domain will end up here. I do not accept requests to remove domains if the underlying abuse issue hasn't been fixed.
+If you can confirm that the provider has taken steps to prevent abuse (e.g., added verification, rate limiting, or other anti-spam measures), feel free to open an issue requesting removal, and I'll be happy to take the domain off the list.
