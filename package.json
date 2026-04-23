@@ -1,23 +1,24 @@
 {
-  "private": true,
   "name": "burner-email-providers",
-  "type": "module",
   "version": "1.0.0-RC",
-  "description": "A list of burner email providers.",
-  "license": "UNLICENSED",
   "author": "Wes Bos & contributors",
   "repository": "https://github.com/wesbos/burner-email-providers",
+  "description": "A list of burner email providers.",
   "files": [
     "emails.txt"
   ],
-  "scripts": {
-    "prune": "node prune/prune.js",
-    "dedupe": "grep -v '^$' emails.txt | sort -uo emails.txt"
-  },
   "keywords": [
     "email"
   ],
-  "dependencies": {
-    "batch-promises-with-delay": "^1.0.6"
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "prune": "bun run scripts/prune.ts",
+    "prepare": "husky"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "husky": "^9.1.7"
   }
 }

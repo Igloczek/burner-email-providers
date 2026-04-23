@@ -1,57 +1,21 @@
-# A list of burner email providers
+# A list of burner email providers (Extended Spin-off)
 
-Throw away email addresses (burner emails) are great for single use signups where you would like the content but rather not give up your email.
+This repository is a spin-off of [wesbos/burner-email-providers](https://github.com/wesbos/burner-email-providers) with a narrower, but stricter scope. It contains **only the domains that are NOT present in the upstream repository**.
 
-I'm okay with people using burner email addresses to get my free content, I just need to be able to filter them out of my list so it doesn't drive up bounces and hurt deliverability. 
+## The Philosophy
 
-Please send a PR with any new ones you find. 
+Defining what exactly constitutes a "burner" or "temp" email is subjective. I have a much lower tolerance for spam and abuse than the maintainers of the upstream repository, and I don't want to waste time debating whether a specific service qualifies as a "temporary" email provider or not.
 
-## APIs
+Here is my simple rule of thumb: If I see multiple suspicious sign-ups originating from a single domain in any of my applications, and there's no indication that these are legitimate users, that domain gets added to this list and is automatically banned across all my projects.
 
-### Free
+### For Developers (Using this list)
 
-* [Disposable](https://github.com/0x19/disposable)
-* [Disposable Email Detector](https://www.disposable-email-detector.com)
-* [Firefox Relay](https://github.com/mozilla/fx-private-relay)
-* [Verifier](https://verifier.meetchopra.com/)
+This list is **intentionally short and not meant to be exhaustive**. It does not try to list every single burner provider out there. Its sole purpose is to fill the gaps left by other, more conservative sources (like the upstream repo) by catching providers that are often heavily abused by spammers but rejected by other maintainers.
 
+My recommended way to use this list in conjunction with the upstream one, as well as a list of free email providers that I use and trust, is described in this gist: [https://gist.github.com/Igloczek/7bfc459109f4a01f7e046b591d2a842a](https://gist.github.com/Igloczek/7bfc459109f4a01f7e046b591d2a842a).
 
-## Services
+### For Email Providers and Affected Users (If your domain is banned)
 
-### Free tier
+If you or your users are affected by this blocklist, please direct your complaints to the email providers, not me. In 99% of cases, these are providers that offer a paid service but also run a free tier with absolutely no verification, allowing their infrastructure to be heavily abused by spammers.
 
-* [Firefox Relay](https://relay.firefox.com/)
-
-
-
-## Libraries
-
-### Elixir
-
-* [Burnex](https://github.com/Betree/burnex)
-
-### Go
-
-* [go-burner-email-providers](https://github.com/lindell/go-burner-email-providers)
-
-### NodeJs
-
-* [burner-email-providers](https://github.com/findie/burner-email-providers)
-
-### PHP
-
-#### Symfony
-
-* [secit-pl/validation-bundle](https://github.com/secit-pl/validation-bundle#burneremail)
-
-### Scala
-
-* [Burner4s](https://github.com/ariskk/burner4s)
-
-## Host your own
-
-* [Docker](https://hub.docker.com/r/emailhippo/dea-id-community-api-wesbos-v1)
-
-## Related links
-
-* [otm-detector](https://github.com/Short-io/otm-detector) - tries to find new burner email provider domains by checking MX records
+If a provider allows people to effortlessly create spam accounts, their domain will end up here. I do not accept requests to remove domains if the underlying abuse issue hasn't been fixed.
